@@ -27,7 +27,7 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	containerv1 "cnrm.cloud.google.com/container/api/v1"
+	containerv1 "github.com/yuwenma/container-kcc/api/v1"
 )
 
 var _ = Describe("Cluster Controller", func() {

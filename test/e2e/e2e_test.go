@@ -24,7 +24,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"cnrm.cloud.google.com/container/test/utils"
+	"github.com/yuwenma/container-kcc/test/utils"
 )
 
 const namespace = "container-kcc-system"

@@ -34,8 +34,8 @@ import (
 	metricsserver "sigs.k8s.io/controller-runtime/pkg/metrics/server"
 	"sigs.k8s.io/controller-runtime/pkg/webhook"
 
-	containerv1 "cnrm.cloud.google.com/container/api/v1"
-	"cnrm.cloud.google.com/container/internal/controller"
+	containerv1 "github.com/yuwenma/container-kcc/api/v1"
+	"github.com/yuwenma/container-kcc/internal/controller"
 	//+kubebuilder:scaffold:imports
 )
 

@@ -32,7 +32,7 @@ import (
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	containerv1 "cnrm.cloud.google.com/container/api/v1"
+	containerv1 "github.com/yuwenma/container-kcc/api/v1"
 	//+kubebuilder:scaffold:imports
 )
 

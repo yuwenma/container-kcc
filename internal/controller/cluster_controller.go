@@ -24,7 +24,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	containerv1 "cnrm.cloud.google.com/container/api/v1"
+	containerv1 "github.com/yuwenma/container-kcc/api/v1"
 )
 
 // ClusterReconciler reconciles a Cluster object
